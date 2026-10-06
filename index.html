@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>광명리더스 공인중개사사무소 | 광명시 아파트·재개발·상가·오피스텔 전문</title>
+  <meta name="description" content="광명시 철산동, 하안동, 소하동, 일직동, 광명동 아파트, 재개발, 상가 전문 광명리더스 공인중개사사무소입니다. 허위매물 없는 정직한 신뢰 중개!">
+  <meta name="keywords" content="광명 공인중개사, 철산동 아파트, 광명재개발, 광명역 오피스텔, 소하동 아파트, 하안동 부동산, 광명리더스 부동산">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="광명리더스 공인중개사사무소">
+  <meta property="og:description" content="고객님의 소중한 자산, 15년 실무 경력의 신뢰와 전문성으로 연결합니다.">
+  
+  <!-- Google Fonts: Noto Sans KR & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800;900&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= TOP HOTLINE BAR ================= -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-info">
+        <span><i class="fa-solid fa-location-dot"></i> 경기도 광명시 오리로 854 센트럴타워 1층 (철산역 1번출구)</span>
+        <span class="divider">|</span>
+        <span><i class="fa-regular fa-clock"></i> 평일 09:00 - 20:00 (주말/공휴일 정상영업)</span>
+      </div>
+      <div class="top-actions">
+        <a href="tel:0226108949" class="top-phone"><i class="fa-solid fa-phone"></i> 대표상담전화 <strong>02-2610-8949</strong></a>
+        <button id="bookmark-page-btn" class="btn-text-sm"><i class="fa-regular fa-star"></i> 즐겨찾기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-building-user"></i></div>
+        <div class="logo-text">
+          <span class="logo-title">광명리더스</span>
+          <span class="logo-sub">공인중개사사무소</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#search-section" class="active">매물 검색</a></li>
+          <li><a href="#properties-section">핵심 추천 매물</a></li>
+          <li><a href="#calculator-section">시세/중개보수 계산기</a></li>
+          <li><a href="#about-section">사무소 소개</a></li>
+          <li><a href="#contact-section">1:1 상담 문의</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hotline CTA -->
+      <div class="header-cta">
+        <a href="tel:01098765432" class="btn btn-primary-call">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <div>
+            <span class="cta-sub">직통 빠른 상담</span>
+            <span class="cta-num">010-9876-5432</span>
+          </div>
+        </a>
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="메뉴 열기">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+      <div class="mobile-drawer-header">
+        <div class="logo-text">
+          <span class="logo-title">광명리더스</span>
+          <span class="logo-sub">공인중개사사무소</span>
+        </div>
+        <button class="mobile-close-btn" id="mobile-close-btn">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#search-section" class="mobile-nav-link">🔍 매물 검색하기</a></li>
+        <li><a href="#properties-section" class="mobile-nav-link">🏢 핵심 추천 매물</a></li>
+        <li><a href="#calculator-section" class="mobile-nav-link">🧮 시세 & 복비 계산기</a></li>
+        <li><a href="#about-section" class="mobile-nav-link">🏅 사무소 & 대표 중개사 소개</a></li>
+        <li><a href="#contact-section" class="mobile-nav-link">📝 1:1 방문/상담 신청</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="tel:0226108949" class="btn btn-call-mobile"><i class="fa-solid fa-phone"></i> 대표 전화 연결 (02-2610-8949)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO & SEARCH SECTION ================= -->
+  <section class="hero-section" id="search-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-shield-halved"></i> 광명시 15년 지역 전문 · 허위매물 0% 안심 중개
+      </div>
+      <h1 class="hero-title">
+        고객님의 소중한 자산,<br>
+        <span class="highlight-gold">신뢰와 전문성</span>으로 연결합니다
+      </h1>
+      <p class="hero-subtitle">
+        철산동 · 하안동 · 소하동 · 일직동(광명역) · 광명뉴타운 아파트/상가/재개발 맞춤 솔루션
+      </p>
+
+      <!-- Quick Search Container -->
+      <div class="search-box-wrapper">
+        <!-- Transaction Type Tabs -->
+        <div class="search-tabs" id="transaction-tabs">
+          <button class="tab-btn active" data-type="all">전체 거래</button>
+          <button class="tab-btn" data-type="매매">매매</button>
+          <button class="tab-btn" data-type="전세">전세</button>
+          <button class="tab-btn" data-type="월세">월세</button>
+        </div>
+
+        <!-- Search Inputs Grid -->
+        <div class="search-inputs-grid">
+          <!-- District Filter -->
+          <div class="input-group">
+            <label for="filter-district"><i class="fa-solid fa-location-dot"></i> 광명 지역 선택</label>
+            <select id="filter-district">
+              <option value="all">광명시 전체</option>
+              <option value="철산동">철산동 (7호선 역세권)</option>
+              <option value="하안동">하안동 (단지 재건축)</option>
+              <option value="소하동">소하동 (쾌적 숲세권)</option>
+              <option value="일직동">일직동 (KTX광명역)</option>
+              <option value="광명동">광명동 (광명뉴타운)</option>
+            </select>
+          </div>
+
+          <!-- Property Type Filter -->
+          <div class="input-group">
+            <label for="filter-property-type"><i class="fa-solid fa-building"></i> 매물 유형</label>
+            <select id="filter-property-type">
+              <option value="all">전체 유형</option>
+              <option value="아파트">아파트</option>
+              <option value="재개발/입주권">재개발 / 조합원입주권</option>
+              <option value="오피스텔">오피스텔</option>
+              <option value="상가/사무실">상가 / 사무실</option>
+              <option value="주택/빌라">주택 / 빌라</option>
+            </select>
+          </div>
+
+          <!-- Price Range Filter -->
+          <div class="input-group">
+            <label for="filter-price"><i class="fa-solid fa-won-sign"></i> 희망 금액대</label>
+            <select id="filter-price">
+              <option value="all">금액 전체</option>
+              <option value="under5">5억원 이하</option>
+              <option value="5to10">5억원 ~ 10억원</option>
+              <option value="10to15">10억원 ~ 15억원</option>
+              <option value="over15">15억원 이상</option>
+            </select>
+          </div>
+
+          <!-- Keyword Search Input -->
+          <div class="input-group keyword-group">
+            <label for="filter-keyword"><i class="fa-solid fa-magnifying-glass"></i> 단지명 / 키워드</label>
+            <input type="text" id="filter-keyword" placeholder="예) 철산래미안, 84, 급매">
+          </div>
+
+          <!-- Search Button -->
+          <div class="input-group button-group">
+            <button id="search-submit-btn" class="btn btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i> 매물 검색하기
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Tags -->
+        <div class="quick-tags">
+          <span class="tag-label">인기 검색어:</span>
+          <button class="quick-tag-btn" data-tag="철산래미안">#철산래미안자이</button>
+          <button class="quick-tag-btn" data-tag="광명역">#KTX광명역세권</button>
+          <button class="quick-tag-btn" data-tag="재개발">#광명뉴타운</button>
+          <button class="quick-tag-btn" data-tag="급매">#최저가급매물</button>
+          <button class="quick-tag-btn" data-tag="올수리">#올수리확장</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEY STATS COUNTER ================= -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-num" data-count="15">15년+</div>
+        <div class="stat-desc">광명 현장 중개 실무 경력</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="3240">3,240건</div>
+        <div class="stat-desc">누적 누계 중개 완료건</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">0.0%</div>
+        <div class="stat-desc">허위 매물 등록률 (100% 검증)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">99.2%</div>
+        <div class="stat-desc">고객 만족도 및 재방문율</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROPERTIES GRID ================= -->
+  <section class="section properties-section" id="properties-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-badge">REAL ESTATE SELECTION</div>
+        <h2 class="section-title">광명리더스 엄선 <span class="highlight">핵심 추천 매물</span></h2>
+        <p class="section-desc">현장 현장 실사 및 권리분석을 완료한 100% 실매물입니다. 원하시는 매물을 클릭하시면 상세정보를 확인하실 수 있습니다.</p>
+      </div>
+
+      <!-- Filter Category Buttons -->
+      <div class="property-filter-bar">
+        <button class="prop-filter-btn active" data-category="all">전체 매물 (<span id="count-all">0</span>)</button>
+        <button class="prop-filter-btn" data-category="아파트">아파트 (<span id="count-apt">0</span>)</button>
+        <button class="prop-filter-btn" data-category="재개발/입주권">재개발/입주권 (<span id="count-redev">0</span>)</button>
+        <button class="prop-filter-btn" data-category="상가/사무실">상가/오피스 (<span id="count-comm">0</span>)</button>
+        <button class="prop-filter-btn" data-category="오피스텔">오피스텔 (<span id="count-officetel">0</span>)</button>
+      </div>
+
+      <!-- Property Grid -->
+      <div class="property-grid" id="property-grid">
+        <!-- JS will populate property cards here -->
+      </div>
+
+      <!-- Empty State Warning (Hidden by default) -->
+      <div class="no-properties-message hidden" id="no-properties-msg">
+        <i class="fa-solid fa-building-circle-exclamation"></i>
+        <h3>조건에 맞는 매물이 없습니다.</h3>
+        <p>검색 조건이나 가격대를 변경하시거나, 1:1 문의를 남겨주시면 원하시는 매물을 신속히 찾아드립니다.</p>
+        <button class="btn btn-outline" id="reset-search-btn">검색 조건 초기화</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROPERTY DETAIL MODAL ================= -->
+  <div class="modal-overlay" id="property-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Dynamic Modal Content filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MARKET PRICE & BROKERAGE CALCULATOR ================= -->
+  <section class="section calculator-section bg-light" id="calculator-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-badge">SMART HELPER</div>
+        <h2 class="section-title">스마트 <span class="highlight">부동산 복비 & 대출 계산기</span></h2>
+        <p class="section-desc">계약 전 중개보수(복비)와 대출 가능 한도(LTV)를 손쉽게 미리 확인해 보세요.</p>
+      </div>
+
+      <div class="calculator-grid">
+        <!-- Real Estate Fee (복비) Calculator -->
+        <div class="calc-card">
+          <div class="calc-card-header">
+            <i class="fa-solid fa-calculator"></i>
+            <h3>법정 중개보수 (복비) 계산기</h3>
+          </div>
+          <div class="calc-form">
+            <div class="form-group">
+              <label>거래 대상 종류</label>
+              <select id="calc-prop-type">
+                <option value="housing">주택 / 아파트 / 오피스텔(주거)</option>
+                <option value="commercial">상가 / 토지 / 오피스(비주거)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>거래 유형</label>
+              <div class="radio-group">
+                <label><input type="radio" name="calc-trans-type" value="trade" checked> 매매</label>
+                <label><input type="radio" name="calc-trans-type" value="jeonse"> 전세</label>
+                <label><input type="radio" name="calc-trans-type" value="rent"> 월세</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label id="label-calc-price">거래 금액 (만원)</label>
+              <input type="number" id="calc-price" placeholder="예) 85000 (8억 5,000만원)">
+            </div>
+            <div class="form-group hidden" id="group-calc-rent">
+              <label>월세 금액 (만원)</label>
+              <input type="number" id="calc-rent" placeholder="예) 150 (150만원)">
+            </div>
+            <button class="btn btn-primary w-100" id="btn-calculate-fee">
+              <i class="fa-solid fa-coins"></i> 중개보수 계산하기
+            </button>
+          </div>
+          <div class="calc-result hidden" id="calc-result-box">
+            <div class="result-row">
+              <span>상한 요율:</span>
+              <strong id="res-rate">0.4%</strong>
+            </div>
+            <div class="result-row total">
+              <span>최대 법정 중개보수:</span>
+              <strong id="res-max-fee">0 원</strong>
+            </div>
+            <div class="result-row sub">
+              <span>(부가가치세 10% 별도 / 협의 가능 금액)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Loan Estimate (LTV) Helper -->
+        <div class="calc-card">
+          <div class="calc-card-header">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <h3>주택담보대출 (LTV) 예상 한도</h3>
+          </div>
+          <div class="calc-form">
+            <div class="form-group">
+              <label>주택 소유 상태</label>
+              <select id="loan-house-status">
+                <option value="0.7">무주택자 / 생애최초 (LTV 최대 70~80%)</option>
+                <option value="0.6">1주택자 (LTV 최대 60%)</option>
+                <option value="0.5">다주택자 (규제지역에 따른 차등)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>아파트 KB시세 또는 매매가 (만원)</label>
+              <input type="number" id="loan-house-price" placeholder="예) 100000 (10억원)">
+            </div>
+            <button class="btn btn-gold w-100" id="btn-calculate-loan">
+              <i class="fa-solid fa-chart-line"></i> 예상 한도 조회
+            </button>
+          </div>
+          <div class="calc-result hidden" id="loan-result-box">
+            <div class="result-row">
+              <span>적용 예상 LTV:</span>
+              <strong id="res-loan-ltv">70%</strong>
+            </div>
+            <div class="result-row total">
+              <span>예상 최대 대출가능액:</span>
+              <strong id="res-loan-amount">0 만원</strong>
+            </div>
+            <div class="result-row sub">
+              <span>* 개인 신용도, DSR, 금리에 따라 실제 한도는 변동될 수 있습니다.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT BROKER & AGENCY STRENGTHS ================= -->
+  <section class="section about-section" id="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Agent Photo & Info Card -->
+        <div class="agent-card">
+          <div class="agent-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="광명리더스 대표 공인중개사 김선영" class="agent-img" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80'">
+            <div class="agent-experience-badge">
+              <span class="exp-years">15+</span>
+              <span class="exp-text">년 경력</span>
+            </div>
+          </div>
+          <div class="agent-details">
+            <div class="agent-title-tag">대표 공인중개사</div>
+            <h3 class="agent-name">김 선 영 <span class="agent-eng">Kim Sun Young</span></h3>
+            <p class="agent-license"><i class="fa-solid fa-certificate"></i> 공인중개사 자격번호: 제 41210-2024-00045 호</p>
+            <div class="agent-contact-mini">
+              <a href="tel:01098765432" class="mini-btn"><i class="fa-solid fa-phone"></i> 010-9876-5432</a>
+              <a href="mailto:contact@gwangmyeong-leaders.com" class="mini-btn"><i class="fa-solid fa-envelope"></i> 이메일 문의</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Greeting & Agency Strengths -->
+        <div class="about-content">
+          <div class="section-badge">ABOUT US</div>
+          <h2 class="about-headline">
+            "고객님의 평생 자산 파트너,<br>
+            <span class="highlight">광명리더스 공인중개사</span>입니다"
+          </h2>
+          <p class="about-paragraph">
+            안녕하십니까. 광명리더스 공인중개사사무소 대표 김선영입니다.<br>
+            저희 사무소는 광명시 철산동, 하안동, 소하동, 일직동 및 광명뉴타운 재개발 구역을 전문으로 다루며, 
+            단순한 매물 소개를 넘어 고객 한 분 한 분의 소중한 자산 가치를 극대화할 수 있도록 정밀한 권리 분석과 맞춤 세무·대출 솔루션을 제공합니다.
+          </p>
+          <p class="about-paragraph">
+            어르신부터 젊은 신혼부부까지 <strong>허위매물 없이 안심하고 거래</strong>하실 수 있도록 
+            모든 매물은 직접 현장을 방문하여 검증한 100% 실매물만을 엄선하여 중개합니다.
+          </p>
+
+          <!-- 4 Core Strengths Grid -->
+          <div class="strengths-grid">
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+              <div class="strength-info">
+                <h4>100% 현장 검증 매물</h4>
+                <p>허위매물 Zero! 대표 중개사가 직접 방문 실사한 안심 매물만 제공합니다.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-file-contract"></i></div>
+              <div class="strength-info">
+                <h4>철저한 3중 권리분석</h4>
+                <p>등기부등본, 근저당, 법률적 리스크를 꼼꼼히 점검하여 보증금을 안전하게 보호합니다.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+              <div class="strength-info">
+                <h4>맞춤 세무·대출 솔루션</h4>
+                <p>취득세, 양도세 절세 방안 및 가장 유리한 대출 상품을 1:1 상담해 드립니다.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-user-shield"></i></div>
+              <div class="strength-info">
+                <h4>계약 후 철저한 사후관리</h4>
+                <p>입주 후 하자 점검부터 잔금 처리, 등기 이전까지 끝까지 책임집니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONSULTATION / INQUIRY FORM ================= -->
+  <section class="section contact-section bg-navy text-white" id="contact-section">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info-col">
+          <div class="section-badge badge-light">FAST CONSULTING</div>
+          <h2 class="contact-title">
+            매물 문의 및 맞춤 상담 신청
+          </h2>
+          <p class="contact-desc">
+            원하시는 지역, 금액대, 이사 일정을 남겨주시면 <strong>10분 이내</strong>에 전담 공인중개사가 최적의 매물 리스트를 준비하여 빠른 전화 상담을 드립니다.
+          </p>
+
+          <div class="quick-contact-boxes">
+            <div class="q-box">
+              <i class="fa-solid fa-phone-volume"></i>
+              <div>
+                <span class="q-label">대표 전화 문의</span>
+                <a href="tel:0226108949" class="q-val">02-2610-8949</a>
+              </div>
+            </div>
+
+            <div class="q-box">
+              <i class="fa-solid fa-comments"></i>
+              <div>
+                <span class="q-label">카카오톡 1:1 오픈상담</span>
+                <span class="q-val">@광명리더스부동산</span>
+              </div>
+            </div>
+
+            <div class="q-box">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <span class="q-label">사무실 방문 안내</span>
+                <span class="q-val-sub">7호선 철산역 1번 출구 도보 3분 (건물 내 무료 주차 가능)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form & Kakao Consultation Box on Right -->
+        <div class="contact-form-col">
+          <!-- KakaoTalk Right-Side Banner Box -->
+          <div class="kakao-right-box">
+            <div class="kakao-right-header">
+              <i class="fa-solid fa-comment"></i>
+              <div>
+                <h4>카카오톡 1:1 빠른 실시간 상담</h4>
+                <p>전화가 부담스러우실 땐 카카오톡으로 1초 만에 문의하세요!</p>
+              </div>
+            </div>
+            <button type="button" class="btn btn-kakao-launch" id="btn-launch-kakao-right">
+              <i class="fa-solid fa-comments"></i> 카카오톡 실시간 상담 시작하기 (@광명리더스부동산)
+            </button>
+          </div>
+
+          <form id="consultation-form" class="consultation-form">
+            <h3 class="form-heading"><i class="fa-solid fa-paper-plane"></i> 1:1 맞춤 상담 신청서</h3>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="user-name">성함 <span class="required">*</span></label>
+                <input type="text" id="user-name" required placeholder="예) 홍길동">
+              </div>
+              <div class="form-group">
+                <label for="user-phone">연락처 <span class="required">*</span></label>
+                <input type="tel" id="user-phone" required placeholder="예) 010-1234-5678">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="consult-type">상담 구분 <span class="required">*</span></label>
+                <select id="consult-type" required>
+                  <option value="매수/임차">매수 / 전월세 구하기 (집 찾기)</option>
+                  <option value="매도/임대">매도 / 내놓기 (집 팔기)</option>
+                  <option value="시세/재개발">광명시 시세 & 재개발 상담</option>
+                  <option value="방문예약">사무소 직접 방문 상담 예약</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="target-district">희망 지역</label>
+                <select id="target-district">
+                  <option value="철산동">철산동</option>
+                  <option value="하안동">하안동</option>
+                  <option value="소하동">소하동</option>
+                  <option value="일직동">일직동 (광명역)</option>
+                  <option value="광명동">광명동 (뉴타운)</option>
+                  <option value="상관없음">상관없음 / 추천요청</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="user-message">희망 조건 및 문의 내용</label>
+              <textarea id="user-message" rows="3" placeholder="희망 예산, 평형대, 입주 희망시기 등 원하시는 조건을 자유롭게 적어주세요."></textarea>
+            </div>
+
+            <div class="form-privacy">
+              <label class="checkbox-container">
+                <input type="checkbox" id="privacy-agree" required checked>
+                <span class="checkmark"></span>
+                <span>개인정보 수집 및 이용 동의 (상담 목적 외 사용 불가) <a href="#" id="view-privacy-link">[내용보기]</a></span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-submit-form w-100">
+              <i class="fa-solid fa-check"></i> 상담 신청 완료하기
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LOCATION & MAP SECTION ================= -->
+  <section class="section location-section">
+    <div class="container">
+      <div class="location-card-wrapper">
+        <div class="location-details">
+          <div class="section-badge">LOCATION</div>
+          <h2 class="location-title">오시는 길</h2>
+          <ul class="location-info-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>도로명 주소</strong>
+                <p>경기도 광명시 오리로 854 (철산동) 센트럴타워 1층 102호</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-subway"></i>
+              <div>
+                <strong>대중교통 (지하철)</strong>
+                <p>지하철 7호선 철산역 1번 출구에서 직진 도보 3분 거리</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-square-parking"></i>
+              <div>
+                <strong>주차 안내</strong>
+                <p>건물 지하 주차장 무료 주차 2시간 지원 (방문시 주차등록)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="location-map-box">
+          <!-- Stylized Mock Map Visual -->
+          <div class="map-visual">
+            <div class="map-badge"><i class="fa-solid fa-compass"></i> 광명리더스 부동산 위치</div>
+            <div class="map-pin">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>광명리더스 공인중개사</span>
+            </div>
+            <div class="map-road road-horizontal">오리로 (7호선 철산역)</div>
+            <div class="map-road road-vertical">철산로</div>
+            <a href="https://map.naver.com" target="_blank" rel="noopener noreferrer" class="btn btn-map-link">
+              <i class="fa-solid fa-map-location"></i> 네이버 지도에서 길찾기
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <i class="fa-solid fa-building-user"></i>
+          <div>
+            <span class="logo-title">광명리더스 공인중개사사무소</span>
+            <span class="logo-sub">Gwangmyeong Leaders Real Estate Agency</span>
+          </div>
+        </div>
+        <div class="footer-call">
+          <span class="call-title">고객상담센터</span>
+          <a href="tel:0226108949" class="call-num">02-2610-8949</a>
+        </div>
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-info">
+        <p>
+          <span><strong>상호명:</strong> 광명리더스 공인중개사사무소</span>
+          <span><strong>대표자:</strong> 김선영</span>
+          <span><strong>중개업 등록번호:</strong> 제 41210-2024-00045 호</span>
+        </p>
+        <p>
+          <span><strong>주소:</strong> 경기도 광명시 오리로 854 (철산동) 센트럴타워 1층 102호</span>
+          <span><strong>사업자등록번호:</strong> 123-45-67890</span>
+          <span><strong>팩스:</strong> 02-2610-8950</span>
+        </p>
+        <p class="copyright">
+          Copyright &copy; 2026 광명리더스 공인중개사사무소. All rights reserved. Designed for Premium Client Service.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div id="toast-notification" class="toast hidden">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toast-message">메시지 내용</span>
+  </div>
+
+  <!-- ================= KAKAOTALK AI CHATBOT WIDGET ================= -->
+  <!-- Floating Launcher Button -->
+  <button id="kakao-ai-toggle-btn" class="kakao-ai-floating-btn" title="24시간 카카오톡 AI 부동산 상담">
+    <div class="kakao-icon-wrapper">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+    <div class="floating-badge-pulse">
+      <span class="badge-dot"></span>
+      <span class="badge-text">AI 24시간 상담</span>
+    </div>
+  </button>
+
+  <!-- KakaoTalk AI Chat Window Container -->
+  <div id="kakao-ai-chat-window" class="kakao-chat-window hidden">
+    <!-- Chat Header -->
+    <div class="kakao-chat-header">
+      <div class="kakao-header-info">
+        <div class="kakao-avatar">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div>
+          <div class="kakao-chat-title">광명리더스 AI 부동산 비서 <span class="online-tag">● 24H LIVE</span></div>
+          <div class="kakao-chat-sub">광명시 아파트·재개발·복비 1초 자동응답</div>
+        </div>
+      </div>
+      <div class="kakao-header-actions">
+        <button id="kakao-chat-minimize" class="kakao-action-btn" title="최소화"><i class="fa-solid fa-minus"></i></button>
+        <button id="kakao-chat-close" class="kakao-action-btn" title="닫기">&times;</button>
+      </div>
+    </div>
+
+    <!-- Chat Messages Container -->
+    <div class="kakao-chat-body" id="kakao-chat-messages">
+      <!-- Date Divider -->
+      <div class="chat-date-divider"><span>오늘</span></div>
+
+      <!-- Welcome Message -->
+      <div class="chat-msg bot-msg">
+        <div class="bot-profile">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="msg-content-wrapper">
+          <span class="sender-name">광명리더스 AI 비서</span>
+          <div class="msg-bubble">
+            안녕하세요! 🤖 <strong>광명리더스 24시간 AI 부동산 비서</strong>입니다.<br><br>
+            광명시 철산·하안·소하·일직동 아파트 시세, 추천 매물, 광명뉴타운 재개발, 복비 계산 등 원하시는 질문을 자유롭게 입력해 주세요!
+          </div>
+          <span class="msg-time" id="init-msg-time">15:30</span>
+
+          <!-- Quick Action Buttons -->
+          <div class="quick-reply-chips" id="quick-reply-box">
+            <button class="chip-btn" data-query="인기 추천 매물 보여줘">🏢 인기 추천 매물</button>
+            <button class="chip-btn" data-query="철산동 아파트 시세 알려줘">🏙️ 철산동 아파트 시세</button>
+            <button class="chip-btn" data-query="광명뉴타운 재개발 현황">📈 광명뉴타운 재개발</button>
+            <button class="chip-btn" data-query="중개보수 복비 계산 어떻게 하나요?">🧮 복비/대출 계산</button>
+            <button class="chip-btn" data-query="사무소 위치 및 주차 안내">🚗 위치 및 주차 안내</button>
+            <button class="chip-btn" data-query="공인중개사 직접 전화 연결">📞 대표 중개사 연결</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Typing Indicator (Hidden by default) -->
+    <div id="ai-typing-indicator" class="chat-typing-indicator hidden">
+      <div class="bot-profile mini">
+        <i class="fa-solid fa-robot"></i>
+      </div>
+      <div class="typing-dots">
+        <span></span><span></span><span></span>
+        <span class="typing-label">AI 비서가 답변을 작성하고 있습니다...</span>
+      </div>
+    </div>
+
+    <!-- Chat Input Area -->
+    <div class="kakao-chat-footer">
+      <form id="kakao-chat-form">
+        <input type="text" id="kakao-chat-input" placeholder="광명시 부동산 질문을 입력하세요..." autocomplete="off">
+        <button type="submit" id="kakao-send-btn" class="btn-kakao-send">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
