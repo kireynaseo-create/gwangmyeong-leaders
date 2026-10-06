@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="card-footer-btns">
               <button class="btn-card-detail" data-id="${item.id}">상세보기 <i class="fa-solid fa-arrow-right"></i></button>
-              <a href="tel:0226108949" class="btn-card-call" title="즉시 문의"><i class="fa-solid fa-phone"></i></a>
+              <a href="tel:01048208888" class="btn-card-call" title="즉시 문의"><i class="fa-solid fa-phone"></i></a>
             </div>
           </div>
         `;
@@ -479,8 +479,8 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
 
       <div style="display:flex; gap:12px; margin-top:20px;">
-        <a href="tel:0226108949" class="btn btn-primary" style="flex:1; text-align:center;">
-          <i class="fa-solid fa-phone"></i> 즉시 전화 문의 (02-2610-8949)
+        <a href="tel:01048208888" class="btn btn-primary" style="flex:1; text-align:center;">
+          <i class="fa-solid fa-phone"></i> 즉시 전화 문의 (010-4820-8888)
         </a>
         <button class="btn btn-gold" id="btn-modal-inquire" style="flex:1;">
           <i class="fa-solid fa-envelope"></i> 이 매물 상담 신청하기
@@ -796,14 +796,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (q.includes('전화') || q.includes('상담') || q.includes('연락') || q.includes('대표')) {
       return `📞 <strong>광명리더스 직통 상담 연결</strong><br><br>
-              • 대표전화: <a href="tel:0226108949" style="color:#0F2C59; font-weight:bold; text-decoration:underline;">02-2610-8949</a><br>
-              • 대표중개사 직통: <a href="tel:01098765432" style="color:#0F2C59; font-weight:bold; text-decoration:underline;">010-9876-5432</a><br><br>
+              • 대표전화: <a href="tel:01048208888" style="color:#0F2C59; font-weight:bold; text-decoration:underline;">010-4820-8888</a><br>
+              • 대표중개사 직통: <a href="tel:01048208888" style="color:#0F2C59; font-weight:bold; text-decoration:underline;">010-4820-8888</a><br><br>
               영업시간: 평일 09:00 - 20:00 (주말/공휴일 정상영업)입니다. 지금 바로 전화 연결 가능합니다!`;
     }
 
     return `문의해 주셔서 감사합니다! 😊<br>
             고객님께서 찾으시는 <strong>'${escapeHtml(query)}'</strong> 조건에 적합한 최적의 실매물을 빠르게 찾아드리겠습니다.<br><br>
-            자세한 1:1 친절 상담은 대표번호 📞 <strong>02-2610-8949</strong> 로 전화주시거나, 아래 <strong>1:1 상담 신청 폼</strong>을 작성해 주시면 10분 내로 연락드리겠습니다!`;
+            자세한 1:1 친절 상담은 대표번호 📞 <strong>010-4820-8888</strong> 로 전화주시거나, 아래 <strong>1:1 상담 신청 폼</strong>을 작성해 주시면 10분 내로 연락드리겠습니다!`;
   }
 
   function scrollToBottomChat() {
